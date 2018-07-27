@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+###
+## Find the Big & Small numbers with its position in Array.
+###
+
 import os, commands
 
 
