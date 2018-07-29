@@ -3,13 +3,43 @@
 import os, commands
 
 
-
+print
 print "Enter 5 Numbers"
-N0=raw_input("Number 0: ")
-N1=raw_input("Number 1: ")
-N2=raw_input("Number 2: ")
-N3=raw_input("Number 3: ")
-N4=raw_input("Number 4: ")
+while True:
+    try:
+        N0 = int(input("Number 0: "))
+    except:
+        print ("ERROR : Enter Integer in Number 0!")
+    else:
+        break
+while True:
+    try:
+        N1 = int(input("Number 1: "))
+    except:
+        print ("ERROR : Enter Integer in Number 1!")
+    else:
+        break
+while True:
+    try:
+        N2 = int(input("Number 2: "))
+    except:
+        print ("ERROR : Enter Integer in Number 2!")
+    else:
+        break
+while True:
+    try:
+        N3 = int(input("Number 3: "))
+    except:
+        print ("ERROR : Enter Integer in Number 3!")
+    else:
+        break
+while True:
+    try:
+        N4 = int(input("Number 5: "))
+    except:
+        print ("ERROR : Enter Integer in Number 4!")
+    else:
+        break
 
 #print type(N0)
 #if type(N0) is not int:
