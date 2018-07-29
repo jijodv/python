@@ -57,5 +57,24 @@ print"Biggest number in the array is: ", B_N
 print"Position of Biggest number in array is: ", B_P
 print
 print"Smallest number in the array is: ", S_N
-print"Position of Biggest number in array is: ", S_P
+print"Position of Smallest number in array is: ", S_P
+print
+print "Sequence you've keyed in: ",ARR
+print
+print "Swapping positions of these Big & Small Number..."
+ARR[B_P], ARR[S_P] = ARR[S_P], ARR[B_P]
+print
+print "Positions after Swapping: ",ARR
+
+B_N=max(ARR)
+B_P=ARR.index(B_N)
+S_N=min(ARR)
+S_P=ARR.index(S_N)
+
+print
+print"Biggest number in the array is: ", B_N
+print"New Position of Biggest number in array is: ", B_P
+print
+print"Smallest number in the array is: ", S_N
+print"New Position of Smallest number in array is: ", S_P
 print
