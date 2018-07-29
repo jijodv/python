@@ -61,8 +61,15 @@ for S_LST in ARR:
 
 print
 print"Biggest in the Array is: ",B_INT
-print"Position of the biggest number: ",B_ARR_P
+print"Position of the biggest number: ", B_ARR_P
 print
 print"Smallest in the Array is: ",S_INT
-print"Position of the smallest number: ",S_ARR_P
+print"Position of the smallest number: ", S_ARR_P
+print
+print "Sequence you've keyed in: ",ARR
+print
+print "Swapping positions of these Big & Small Number..."
+ARR[B_ARR_P], ARR[S_ARR_P] = ARR[S_ARR_P], ARR[B_ARR_P]
+print
+print "Positions after Swapping: ",ARR
 print
