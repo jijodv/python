@@ -10,8 +10,9 @@ while True:
     else:
         break
 print
-R_STR = reversed(U_STR)
-if list(U_STR) == list(R_STR):
+LU_STR=U_STR.lower()
+R_STR = reversed(LU_STR)
+if list(LU_STR) == list(R_STR):
     print "String",U_STR,"is a Palindrome!"
 else:
     print "String",U_STR,"is NOT a Palindrome"
